@@ -15,6 +15,13 @@
     <title>Diego Rodriguez | Portfolio</title>
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Asap+Condensed:wght@200;400;700&family=Chakra+Petch:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Bootstrap-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -29,8 +36,8 @@
   </head>
   <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-md navbar-light">
-      <div class="container-fluid">
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light">
+      <div class="container">
         <button
           class="navbar-toggler"
           type="button"
@@ -45,22 +52,25 @@
         <div class="collapse navbar-collapse" id="navbar-toggler">
           <a class="navbar-brand" href="#top">
             <img src="./img/favicon.png" alt="Logo" width="50px" />
-            Diego Rodríguez</a
+            <span class="text-brand">DIEGO RODRIGUEZ</span></a
           >
           <ul
             class="navbar-nav d-flex justify-content-center align-items-center"
           >
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre mí</a>
+              <a class="nav-link" href="#top"><b>Inicio</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projectos</a>
+              <a class="nav-link" href="#about">Sobre mí</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonios</a>
+              <a class="nav-link" href="#projects">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#certificados">Certificados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -69,23 +79,81 @@
     <!-- Seccion Hero -->
     <section class="hero align-items-stretch">
       <div
-        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+        class="hero-principal container flex-wrap d-flex justify-content-center align-items-center"
       >
-        <img class="hero-img img-fluid" src="./img/favicon.png" alt="Foto" />
-        <h1>Hola, soy Diego Rodríguez.</h1>
-        <h2>Desarrollo sitios webs y escribo artículos sobre programación.</h2>
+        <div class="text-hero col-12 col-md-5">
+          <h1>Hola!<br />Soy Diego Rodríguez</h1>
+          <h2>Front-End Developer</h2>
+          <div class="hero-icons">
+            <a href=""><i class="bi bi-envelope-fill"></i></a>
+            <a href=""><i class="bi bi-github"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+            <button>
+              <i class="bi bi-cloud-arrow-down-fill"></i> <b>CV</b>
+            </button>
+          </div>
+        </div>
+        <img class="hero-img img-fluid" src="./img/profile.png" alt="Foto" />
       </div>
     </section>
     <!-- Seccion About Me-->
-    <section class="about-me seccion-oscura">
-      <div class="contenedor">
-        <h2 class="seccion-titulo texto-blanco">Conoce a Diego Rodríguez</h2>
-        <p class="seccion-texto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-          minima maiores facere doloremque saepe voluptates laudantium, tempore
-          eveniet ipsa officia reprehenderit. Cum qui iure id alias dolore, eos
-          in voluptatum.
-        </p>
+    <section id="about" class="about-me seccion-oscura">
+      <div class="container d-flex flex-wrap">
+        <div class="container col-sm-12 col-md-6">
+          <h2 class="seccion-titulo texto-blanco">SOBRE MÍ</h2>
+          <p class="seccion-texto">
+            Soy Diego, un entusiasta de la tecnología con un enfoque apasionado
+            en el desarrollo front-end. Mi interés por la resolución de
+            problemas y la creatividad me ha llevado al mundo del desarrollo
+            web.<br /><br />
+            Me apasiona la creatividad en el diseño de interfaces de usuario.
+            Estoy constantemente buscando nuevas oportunidades de aprendizaje y
+            colaboración con otros profesionales del desarrollo web.
+          </p>
+        </div>
+        <div class="container col-sm-12 col-md-6">
+          <h2 class="seccion-titulo texto-blanco">HABILIDADES</h2>
+          <div class="row d-flex flex-wrap">
+            <div class="skill col-6">
+              <img class="img-skill img-fluid"" src="./img/htmlLogo.svg"
+              alt="Logo HTML">
+              <span class="seccion-texto"> HTML</span>
+            </div>
+            <div class="skill col-6">
+              <img class="img-skill img-fluid"" src="./img/cssLogo.svg"
+              alt="Logo CSS">
+              <span class="seccion-texto"> CSS</span>
+            </div>
+            <div class="skill col-6">
+              <img class="img-skill img-fluid"" src="./img/jsLogo.svg" alt="Logo
+              JavaScript">
+              <span class="seccion-texto">JavaScript</span>
+            </div>
+            <div class="skill col-6">
+              <img
+                class="img-skill img-fluid"
+                src="./img/reactLogo.png"
+                alt="Logo React"
+              />
+              <span class="seccion-texto">React</span>
+            </div>
+            <div class="skill col-6">
+              <img class="img-skill img-fluid"" src="./img/bootstrapLogo.svg"
+              alt="Logo Boostrap">
+              <span class="seccion-texto">Bootstrap</span>
+            </div>
+            <div class="skill col-6">
+              <img class="img-skill img-fluid"" src="./img/gitLogo.svg"
+              alt="Logo Github">
+              <span class="seccion-texto">Git/Github</span>
+            </div>
+            <div class="skill col-6">
+              <img class="img-skill img-fluid"" src="./img/nodeLogo.svg"
+              alt="Logo Node">
+              <span class="seccion-texto">Node Js</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- Seccion Experiencia-->
@@ -95,68 +163,55 @@
           <!--Desarrollo Web-->
           <div class="columna col-12 col-md-4">
             <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p class="experiencia-titulo">Diseño responsivo</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-              reiciendis exercitationem, vero laborum quae sint dolores minus
-              sapiente explicabo sed in impedit consequuntur quaerat nisi eaque
-              amet odit esse libero.
+              Diseños responsivos que se adaptan de manera fluida a cualquier
+              dispositivo, brindando una experiencia de usuario consistente y
+              atractiva. Mi enfoque se centra en la versatilidad, asegurando que
+              tu presencia digital se vea impecable tanto en pantallas de
+              escritorio como en dispositivos móviles.
             </p>
-            <div class="badges-contenedor">
-              <span class="badge text-bg-primary">HTML</span>
-              <span class="badge text-bg-primary">CSS</span>
-              <span class="badge text-bg-primary">JavaScript</span>
-              <span class="badge text-bg-primary">React</span>
-            </div>
           </div>
           <!--Articulos-->
           <div class="columna col-12 col-md-4">
-            <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Articulos</p>
+            <i class="bi bi-people"></i>
+            <p class="experiencia-titulo">Soft skills</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-              reiciendis exercitationem, vero laborum quae sint dolores minus
-              sapiente explicabo sed in impedit consequuntur quaerat nisi eaque
-              amet odit esse libero.
+              Gestión de proyectos ágiles utilizando la metodología SCRUM. Mi
+              capacidad para trabajar en equipos ágiles se refleja en mi
+              habilidad para adaptarme rápidamente a los cambios, colaborar de
+              manera efectiva con los miembros del equipo y cumplir con los
+              plazos de manera consistente.
             </p>
-            <div class="badges-contenedor">
-              <span class="badge text-bg-primary">HTML</span>
-              <span class="badge text-bg-primary">CSS</span>
-              <span class="badge text-bg-primary">JavaScript</span>
-              <span class="badge text-bg-primary">React</span>
-            </div>
           </div>
           <!--Estudiante-->
           <div class="columna col-12 col-md-4">
-            <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Estudiante</p>
+            <i class="bi bi-book"></i>
+            <p class="experiencia-titulo">Aprendizaje</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-              reiciendis exercitationem, vero laborum quae sint dolores minus
-              sapiente explicabo sed in impedit consequuntur quaerat nisi eaque
-              amet odit esse libero.
+              Como profesional, me destaco por mi naturaleza autodidacta y mi
+              firme compromiso con el aprendizaje continuo. La búsqueda
+              constante de conocimiento y la exploración de las últimas
+              tendencias en diseño y tecnología son aspectos fundamentales en mi
+              carrera.
             </p>
-            <div class="badges-contenedor">
-              <span class="badge text-bg-primary">HTML</span>
-              <span class="badge text-bg-primary">CSS</span>
-              <span class="badge text-bg-primary">JavaScript</span>
-              <span class="badge text-bg-primary">React</span>
-            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Seccion Proyectos-->
-    <section class="proyectos seccion-clara d-flex flex-column">
-      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
-      <h3 class="seccion-descripcion">Estos son algunos proyectos creados</h3>
+    <section
+      id="projects"
+      class="proyectos seccion-clara text-center d-flex flex-column"
+    >
+      <h2 class="seccion-titulo texto-negro">MIS PROYECTOS RECIENTES</h2>
       <!--Galería de proyectos-->
       <div class="container text-center proyecto-contenedor">
         <div class="row">
           <!--Proyecto 1-->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="project">
-              <img src="./img/favicon.png" alt="Proyecto 1" />
+              <img src="./img/noData.jpg" alt="Proyecto 1" />
               <div class="overlay">
                 <p>Proyecto 1</p>
                 <div class="iconos-contenedor">
@@ -173,7 +228,7 @@
           <!--Proyecto 2-->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="project">
-              <img src="./img/favicon.png" alt="Proyecto 2" />
+              <img src="./img/noData.jpg" alt="Proyecto 2" />
               <div class="overlay">
                 <p>Proyecto 2</p>
                 <div class="iconos-contenedor">
@@ -190,7 +245,7 @@
           <!--Proyecto 3-->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="project">
-              <img src="./img/favicon.png" alt="Proyecto 3" />
+              <img src="./img/noData.jpg" alt="Proyecto 3" />
               <div class="overlay">
                 <p>Proyecto 3</p>
                 <div class="iconos-contenedor">
@@ -207,7 +262,7 @@
           <!--Proyecto 4-->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="project">
-              <img src="./img/favicon.png" alt="Proyecto 4" />
+              <img src="./img/noData.jpg" alt="Proyecto 4" />
               <div class="overlay">
                 <p>Proyecto 4</p>
                 <div class="iconos-contenedor">
@@ -224,7 +279,7 @@
           <!--Proyecto 5-->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="project">
-              <img src="./img/favicon.png" alt="Proyecto 5" />
+              <img src="./img/noData.jpg" alt="Proyecto 5" />
               <div class="overlay">
                 <p>Proyecto 5</p>
                 <div class="iconos-contenedor">
@@ -241,7 +296,7 @@
           <!--Proyecto 6-->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="project">
-              <img src="./img/favicon.png" alt="Proyecto 6" />
+              <img src="./img/noData.jpg" alt="Proyecto 6" />
               <div class="overlay">
                 <p>Proyecto 6</p>
                 <div class="iconos-contenedor">
@@ -258,11 +313,96 @@
         </div>
       </div>
       <a href="" target="_blank" rel="noopener noreferrer">
-        <button type="button" class="btn btn-info">
+        <button type="button" class="btn-info">
           Ver más proyectos
           <i class="bi bi-arrow-right-circle-fill"></i>
         </button>
       </a>
+    </section>
+    <!-- Seccion Certificados-->
+    <section
+      id="certificados"
+      class="certificados seccion-clara text-center d-flex flex-column"
+    >
+      <h2 class="seccion-titulo">MIS CERTIFICADOS</h2>
+      <div class="container d-flex justify-content-center flex-wrap">
+        <div class="card col-12 col-md-6 col-lg-4" style="width: 18rem">
+          <img src="./img/certif/scrum.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Metodología SCRUM</p>
+            <p class="card-autor">CERTIPROF</p>
+            <button class="button">
+              <span class="button_lg">
+                <span class="button_sl"></span>
+                <span class="button_text"><a target="_blank" href="https://drive.google.com/file/d/1jpc0ZStLNi4quIul-M91dZzDYU07tAuT/view?usp=drive_link">Ver certificado</a></span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4" style="width: 18rem">
+          <img src="./img/certif/git.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Introducción a git y github</p>
+            <p class="card-autor">TODOCODE</p>
+            <button class="button">
+              <span class="button_lg">
+                <span class="button_sl"></span>
+                <span class="button_text"><a target="_blank" href="https://drive.google.com/file/d/1PNjpZnKeICJP_c_ek6ypfDsIRoAMGZpv/view?usp=drive_link">Ver certificado</a></span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4" style="width: 18rem">
+          <img src="./img/certif/jse.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">JavaScript Essentials 1</p>
+            <p class="card-autor">CISCO</p>
+            <button class="button">
+              <span class="button_lg">
+                <span class="button_sl"></span>
+                <span class="button_text"><a target="_blank" href="https://drive.google.com/file/d/121KiQkLBdLfTKLhuXDg099y3bov_o-qb/view?usp=drive_link">Ver certificado</a></span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4" style="width: 18rem">
+          <img
+            src="./img/certif/algoritmos.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <p class="card-text">Introducción a los algoritmos</p>
+            <p class="card-autor">TODOCODE</p>
+            <button class="button">
+              <span class="button_lg">
+                <span class="button_sl"></span>
+                <span class="button_text"><a target="_blank" href="https://drive.google.com/file/d/1adZ9B-3QhkleKShP6CRQmWDxqg6b0koX/view?usp=drive_link">Ver certificado</a></span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Seccion Contacto-->
+    <section id="contacto" class="contacto seccion-oscura">
+      <h2 class="seccion-titulo">CONTACTO</h2>
+      <div class="container d-flex flex-column justify-content-center align-items-center text-center flex-wrap">
+          <p class="contact-text">
+            ¿Tenés una idea? <i class="bi bi-lightbulb-fill"></i>
+          </p>
+          <p class="seccion-texto">¡Trabajemos juntos!</p>
+          <p class="seccion-texto">
+            <i class="bi bi-geo-alt"></i> Santa Fe, Argentina.
+          </p>
+          <div class="contact-icons">
+            <button type="button" class="btn btn-light">Enviar correo</button>
+            <a href=""><i class="bi bi-envelope-fill"></i></a>
+            <a href=""><i class="bi bi-github"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+          <div class="derechos-de-autor">Creado por Diego Rodriguez &#169;</div>
+      </div>
     </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
