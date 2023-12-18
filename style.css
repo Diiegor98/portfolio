@@ -140,7 +140,7 @@ h1{
   border: 2px solid #0a0a23;
 }
 
-bi-cloud-arrow-down-fill{
+.bi-cloud-arrow-down-fill{
   padding-left: 4px;
 }
 
@@ -171,7 +171,7 @@ bi-cloud-arrow-down-fill{
   padding: 10px;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 767px){
   .about-me {
     height: fit-content;
   }
@@ -228,16 +228,6 @@ bi-cloud-arrow-down-fill{
   background-color: #1b1b32;
 }
 
-.badges-contenedor{
-  font-size: 1.1em;
-  font-weight: bold;
-  margin: 10px 0;
-}
-
-.badge{
-  margin: 5px;
-}
-
 /* Proyectos */
 .proyectos, .certificados{
   padding: 40px;
@@ -255,6 +245,21 @@ bi-cloud-arrow-down-fill{
 .proyecto-contenedor{
   padding-top: 60px;
   margin-bottom: 40px;
+}
+
+.project-title{
+  margin: 0;
+  font-size: 1.2em;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.badge{
+  background-color: #55559e;
+}
+
+.badges-container span{
+  font-size: 12px;
+  margin: 0 5px;
 }
 
 .overlay{
