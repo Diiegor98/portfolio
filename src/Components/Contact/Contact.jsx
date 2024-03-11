@@ -16,7 +16,7 @@ const Contact = () => {
         <img
         className="img-fluid"
           width={300}
-          src="../../../img/idea.png"
+          src="https://postimg.cc/6Tz9PP4k"
           alt="idea"
         />
 

@@ -1,28 +1,28 @@
 export const proyectos = [
   {
     name: "Calculadora",
-    image: "../../../img/proy/p1.png",
+    image: "https://postimg.cc/3yD5JSRx",
     tech: ["HTML", "CSS", "JS"],
     portfolio: "https://github.com/Diiegor98/calculadora",
     deploy: "https://calculadora-dr.vercel.app/",
   },
   {
     name: "To Do App",
-    image: "../../../img/proy/p2.png",
+    image: "https://postimg.cc/5XyWDNWv",
     tech: ["HTML", "CSS", "JS", "Bootstrap"],
     portfolio: "https://github.com/Diiegor98/todoapp",
     deploy: "https://todoapp-dr.vercel.app/",
   },
   {
     name: "IMC",
-    image: "../../../img/proy/p3.png",
+    image: "https://postimg.cc/5XrWJdfr",
     tech: ["HTML", "CSS", "JS", "Bootstrap"],
     portfolio: "https://github.com/Diiegor98/imc-calculator",
     deploy: "https://imc-calculator-ashen.vercel.app/",
   },
   {
     name: "To Do App v2",
-    image: "../../../img/proy/p4.png",
+    image: "https://postimg.cc/vgFR1rgL",
     tech: ["HTML", "CSS", "React"],
     portfolio: "https://github.com/Diiegor98/todoapp.v2",
     deploy: "https://todoapp-v2.vercel.app/",

@@ -4,14 +4,26 @@ const Slider = () => {
   return (
     <div className="logos">
       <div className="logos-slide">
-        <img src="../../../../img/certif/algoritmos.png" />
-        <img src="../../../../img/certif/disenio.png" />
-        <img src="../../../../img/certif/git.png" />
-        <img src="../../../../img/certif/htmlcss.png" />
-        <img src="../../../../img/certif/jse.png" />
-        <img src="../../../../img/certif/jsreact.png" />
-        <img src="../../../../img/certif/responsive.png" />
-        <img src="../../../../img/certif/scrum.png" />
+        <img src="https://postimg.cc/9DWBJrTP" />
+        <img src="https://postimg.cc/YjW89cMF" />
+        <img src="https://postimg.cc/G4qxNdJW" />
+        <img src="https://postimg.cc/McHmJN9v" />
+        <img src="https://postimg.cc/KR7NPnKv" />
+        <img src="https://postimg.cc/8fMbnvt4" />
+        <img src="https://postimg.cc/YGJ33Rfj" />
+        <img src="https://postimg.cc/hfRsQCt5" />
+        <img src="https://postimg.cc/94ktmbk1" />
+      </div>
+      <div className="logos-slide">
+        <img src="https://postimg.cc/9DWBJrTP" />
+        <img src="https://postimg.cc/YjW89cMF" />
+        <img src="https://postimg.cc/G4qxNdJW" />
+        <img src="https://postimg.cc/McHmJN9v" />
+        <img src="https://postimg.cc/KR7NPnKv" />
+        <img src="https://postimg.cc/8fMbnvt4" />
+        <img src="https://postimg.cc/YGJ33Rfj" />
+        <img src="https://postimg.cc/hfRsQCt5" />
+        <img src="https://postimg.cc/94ktmbk1" />
       </div>
     </div>
   );

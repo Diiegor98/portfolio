@@ -45,7 +45,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <img width={330} className="img-fluid" src="../../../img/profile.png" />
+        <img width={330} className="img-fluid" src="https://postimg.cc/hfjSR09f" />
       </Container>
     </section>
   );
