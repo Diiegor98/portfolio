@@ -29,7 +29,7 @@ export const proyectos = [
   },
   {
     name: "shop cart",
-    image: "../../../img/proy/p4.png",
+    image: "https://i.postimg.cc/MTXzFtz4/p4.png",
     tech: ["HTML", "CSS", "React", "Tailwind"],
     portfolio: "https://github.com/Diiegor98/todoapp.v2",
     deploy: "https://todoapp-v2.vercel.app/",

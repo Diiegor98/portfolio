@@ -5,6 +5,11 @@ h4 {
   font-weight: 100;
 }
 
+.form-icons {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 767px) {
   .contact {
     display: flex;

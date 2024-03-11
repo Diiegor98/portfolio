@@ -14,38 +14,39 @@ const Contact = () => {
       </h2>
       <Container className="d-flex justify-content-center align-items-center flex-wrap gap-5">
         <img
-        className="img-fluid"
+          className="img-fluid"
           width={300}
-          src="https://postimg.cc/6Tz9PP4k"
+          src="https://i.postimg.cc/fTQJVnzR/idea.png"
           alt="idea"
         />
 
-        <div className="col-12 col-md-5">
+        <div>
           <h4>¡Trabajemos juntos!</h4>
           <ContactForm />
           <hr></hr>
-          <div className="form-icons"></div>
-          <Button
-            variant="link"
-            href="mailto:diiegor98@gmail.com"
-            target="_blank"
-          >
-            <FaEnvelope className="hero-icons" />
-          </Button>
-          <Button
-            variant="link"
-            href="https://github.com/Diiegor98"
-            target="_blank"
-          >
-            <BsGithub className="hero-icons" />
-          </Button>
-          <Button
-            variant="link"
-            href="https://www.linkedin.com/in/diiegorodriguez/"
-            target="_blank"
-          >
-            <FaLinkedin className="hero-icons" />
-          </Button>
+          <div className="form-icons">
+            <Button
+              variant="link"
+              href="mailto:diiegor98@gmail.com"
+              target="_blank"
+            >
+              <FaEnvelope className="hero-icons" />
+            </Button>
+            <Button
+              variant="link"
+              href="https://github.com/Diiegor98"
+              target="_blank"
+            >
+              <BsGithub className="hero-icons" />
+            </Button>
+            <Button
+              variant="link"
+              href="https://www.linkedin.com/in/diiegorodriguez/"
+              target="_blank"
+            >
+              <FaLinkedin className="hero-icons" />
+            </Button>
+          </div>
         </div>
       </Container>
     </section>

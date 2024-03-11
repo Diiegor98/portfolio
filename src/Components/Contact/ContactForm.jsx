@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import {  Form } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import "./contactform.css";
 
 const ContactForm = () => {
@@ -20,37 +20,38 @@ const ContactForm = () => {
   };
 
   return (
-      <Form
-        ref={refForm}
-        onSubmit={handleSubmit}
-        className="form-container d-flex flex-column"
-      >
-        <div className="d-flex gap-3">
-          <input
-            className="forms-input"
-            name="username"
-            type="text"
-            placeholder="Nombre"
-            required
-          ></input>
-          <input
-            className="forms-input"
-            name="email"
-            type="email"
-            placeholder="Email"
-            required
-          ></input>
-        </div>
-        <textarea
-          name="message"
-          maxLength={500}
-          placeholder="Escriba aquí"
+    <Form
+      ref={refForm}
+      onSubmit={handleSubmit}
+      className="form-container d-flex flex-column align-items-center"
+    >
+      <div className="d-flex gap-1">
+        <input
+          className="forms-input"
+          name="username"
+          type="text"
+          placeholder="Nombre"
           required
-        ></textarea>
-        <button className="form-btn">ENVIAR</button>
-      </Form>
+        ></input>
+        <input
+          className="forms-input"
+          name="email"
+          type="email"
+          placeholder="Email"
+          required
+        ></input>
+      </div>
+      <textarea
+
+        name="message"
+        maxLength={500}
+        cols={50}
+        placeholder="Escriba aquí"
+        required
+      ></textarea>
+      <button className="form-btn">ENVIAR</button>
+    </Form>
   );
 };
 
 export default ContactForm;
-

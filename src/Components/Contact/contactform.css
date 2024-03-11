@@ -18,7 +18,7 @@ textarea:focus {
   border: 3px solid var(--tertiary-color);
 }
 
-textarea{
+textarea {
   max-width: 400px;
 }
 
