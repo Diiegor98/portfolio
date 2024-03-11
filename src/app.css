@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #000000;
+  --secondary-color: #ffffff;
+  --tertiary-color: #00a1e4;
+}
+
+* {
+  box-sizing: content-box;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 50px 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.title {
+  color: var(--secondary-color);
+  font-size: clamp(1.2em, 2.4em, 2.7em);
+  letter-spacing: 0.3em;
+  text-decoration: line-through 4px #0b819028;
+  font-family: "Rajdhani", sans-serif;
+}

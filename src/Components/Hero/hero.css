@@ -1,0 +1,98 @@
+/* Contenedor Principal */
+
+.hero {
+  background-color: var(--primary-color);
+  padding-top: 2em;
+}
+
+/* Diego Rodriguez */
+
+.text-hero h1 {
+  color: var(--secondary-color);
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2.1rem;
+  margin: 0;
+  padding: 0 0 5px 0;
+}
+
+/* Simbolos Diego Rodriguez */
+
+.text-hero span {
+  font-family: "Rajdhani", sans-serif;
+  color: var(--tertiary-color);
+}
+
+/* FrontEnd Developer */
+
+.text-hero h2 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.6rem;
+  color: var(--tertiary-color);
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 17ch;
+  animation: typing 3s steps(17), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+  margin-bottom: 1.2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Contenedor de iconos*/
+
+.hero-icons-container {
+  width: fit-content;
+}
+
+.hero-icons-container a {
+  margin-right: 0.3em;
+  padding: 0.5em;
+}
+
+/* Iconos */
+
+.hero-icons {
+  color: var(--secondary-color);
+  font-size: 1.7em;
+  transition: all .3s;
+}
+
+.hero-icons:hover {
+  color: var(--tertiary-color);
+}
+
+.btn-cv{
+    border-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    transition: all .3s;
+    font-weight: 500;
+}
+
+.btn-cv:hover{
+    background-color: var(--tertiary-color);
+    border-color: var(--tertiary-color);
+}
+
+@media screen and (max-width: 767px) {
+    .text-hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero-container img{
+        padding-top: 1.7em;
+    }
+  }

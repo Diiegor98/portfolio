@@ -1,0 +1,23 @@
+.navbar {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+}
+
+.text-brand {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  letter-spacing: 2px;
+  color: var(--secondary-color);
+}
+
+.me-auto{
+  align-items: center;
+}
+
+.nav-link {
+  color: var(--secondary-color);
+}
+
+
+
+  

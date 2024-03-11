@@ -1,0 +1,40 @@
+.form-container {
+  gap: 1em;
+  display: flex;
+  flex: column;
+}
+
+.forms-input,
+textarea {
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  padding: 8px;
+  border-radius: 10px;
+  color: white;
+}
+
+.forms-input:focus,
+textarea:focus {
+  border: 3px solid var(--tertiary-color);
+}
+
+textarea{
+  max-width: 400px;
+}
+
+.form-btn {
+  width: 100px;
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  border: 1px solid var(--tertiary-color);
+  border-radius: 10px;
+  padding: 4px;
+
+  transition: all 0.2s ease-in-out;
+  font-weight: bold;
+}
+
+.form-btn:hover {
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+}
