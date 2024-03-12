@@ -18,7 +18,7 @@ const Certificates = () => {
         <span>CERTIFICADOS</span>
       </h2>
       <Slider />
-      <Container className="d-flex justify-content-center ">
+      <Container className="d-flex flex-column align-items-center justify-content-center ">
         <ListGroup className="col-12 col-md-10">
           {certificados.map((certificado) => (
             <ListGroup.Item className="list-item " key={certificado.id}>
@@ -29,10 +29,28 @@ const Certificates = () => {
                   <span className="cert-academia">{certificado.academia}</span>
                 </div>
               </div>
-              <img src={certificado.img} alt={certificado.name} />
+              <img
+                className="img-fluid"
+                src={certificado.img}
+                alt={certificado.name}
+              />
             </ListGroup.Item>
           ))}
         </ListGroup>
+        <div className="add-cert">
+          <p>CERTIFICADOS ADICIONALES</p>
+          <ul>
+            <li>Computadoras e informática</li>
+            <li>Pensamiento Lógico: Algoritmos y diagramas de flujo</li>
+            <li>
+              Pensamiento Lógico: Manejo de datos, Estructuras y Funciones
+            </li>
+            <li>Introducción a la programación</li>
+            <li>Git y github</li>
+            <li>React.js con Vite.js y Tailwind</li>
+          </ul>
+          <button className="form-btn">VER TODOS</button>
+        </div>
       </Container>
     </section>
   );

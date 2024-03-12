@@ -27,12 +27,12 @@ textarea {
 }
 
 .form-btn {
-  width: 100px;
+  width: fit-content;
   background-color: var(--tertiary-color);
   color: var(--primary-color);
   border: 1px solid var(--tertiary-color);
   border-radius: 10px;
-  padding: 4px;
+  padding: 4px 12px;
 
   transition: all 0.2s ease-in-out;
   font-weight: bold;
