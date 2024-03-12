@@ -24,18 +24,11 @@
   font-weight: 400;
 }
 
-.card-text {
-  color: var(--secondary-color);
-}
-
-.card-tech-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+.card-body{
+  padding: 0.7em;
 }
 
 .card-tech-container span {
-  padding: 3px;
   font-size: 0.8em;
   color: rgba(255, 255, 255, 0.668);
   margin: 3px;
@@ -44,20 +37,15 @@
 .card-btn {
   margin-top: 3px;
   padding: 0.2em;
-  background-color: var(--primary-color);
-  border: 1px solid var(--tertiary-color);
   transition: all 0.3s;
+  text-decoration: none;
 }
 
 .card-btn a {
   color: var(--tertiary-color);
 }
 
-.card-btn a:hover {
-  color: var(--primary-color);
-}
-
-.card-btn:hover {
-  background-color: var(--tertiary-color);
-  border-color: var(--tertiary-color);
+.btn-ico{
+  color: var(--secondary-color);
+  margin-right: 4px;
 }

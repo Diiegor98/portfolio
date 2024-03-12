@@ -3,6 +3,8 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { proyectos } from "./data";
 import { Container } from "react-bootstrap";
+import { RiComputerLine } from "react-icons/ri";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
 
@@ -24,11 +26,11 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="card-btn-container d-flex gap-2">
-                  <Button variant="primary" className="card-btn">
-                    <a href={proyecto.deploy} target="_blank">Visitar</a>
+                  <Button variant="link" className="card-btn">
+                    <a href={proyecto.deploy} target="_blank"><RiComputerLine className="btn-ico" />Visitar</a>
                   </Button>
-                  <Button variant="primary" className="card-btn">
-                  <a href={proyecto.portfolio} target="_blank">Portfolio</a>
+                  <Button variant="link" className="card-btn">
+                  <a href={proyecto.portfolio} target="_blank"><FaGithub className="btn-ico" />Portfolio</a>
                   </Button>
                 </div>
               </div>

@@ -1,9 +1,9 @@
 import { Container } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
-import { BsPersonBoundingBox } from "react-icons/bs";
+import { BsPersonVcard } from "react-icons/bs";
 import { MdScreenshotMonitor } from "react-icons/md";
 import { FaPeopleGroup } from "react-icons/fa6";
-import { FaBook } from "react-icons/fa";
+import { PiBooksLight } from "react-icons/pi";
 import "./about.css";
 
 const About = () => {
@@ -14,7 +14,7 @@ const About = () => {
       </h2>
       <Container className="about-container d-flex justify-content-center flex-wrap gap-3">
         <Card.Body className="about-description col-12 col-md-5">
-          <BsPersonBoundingBox className="about-icon" />
+          <BsPersonVcard className="about-icon" />
           <div>
             <span>Quien soy</span>
             <p>
@@ -56,7 +56,7 @@ const About = () => {
         </Card.Body>
 
         <Card.Body className="about-description col-12 col-md-5">
-          <FaBook className="about-icon" />
+          <PiBooksLight className="about-icon" />
           <div>
             <span>Estudios</span>
             <p>

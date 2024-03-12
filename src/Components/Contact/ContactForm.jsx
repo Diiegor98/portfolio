@@ -25,7 +25,7 @@ const ContactForm = () => {
       onSubmit={handleSubmit}
       className="form-container d-flex flex-column align-items-center"
     >
-      <div className="d-flex gap-1">
+      <div className="input-container d-flex gap-1">
         <input
           className="forms-input"
           name="username"

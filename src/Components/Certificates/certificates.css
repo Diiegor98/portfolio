@@ -1,12 +1,17 @@
-.certificates{
-    padding-top: 1.5em;
+.certificates {
+  padding-top: 1.5em;
 }
 
-.accordion-academia{
-    margin-left: 10px;
-    color: var(--tertiary-color);
-    font-weight: bold;
+.accordion-header {
+  font-size: 0.9em;
 }
 
+.accordion-name {
+  white-space: nowrap;
+  overflow: hidden;
+}
 
-
+.accordion-academia {
+  color: var(--tertiary-color);
+  font-weight: bold;
+}

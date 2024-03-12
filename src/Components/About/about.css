@@ -4,7 +4,7 @@
 }
 
 .about-description {
-  background-color: #02304f1d;
+  background-color: var(--cuaternary-color);;
   color: var(--secondary-color);
   display: flex;
   flex-direction: row;
@@ -42,5 +42,17 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .about-description{
+    flex-direction: column;
+  }
+
+  .about-description div{
+    padding: 0;
+  }
+
+  .about-icon{
+    margin: 0 0 5px 0;
   }
 }

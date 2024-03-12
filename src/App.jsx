@@ -19,6 +19,7 @@ function App() {
       <Projects />
       <Certificates />
       <Contact />
+      
     </>
   );
 }

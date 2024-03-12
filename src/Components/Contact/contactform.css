@@ -2,13 +2,17 @@
   gap: 1em;
   display: flex;
   flex: column;
+  flex-wrap: wrap;
 }
+
+
 
 .forms-input,
 textarea {
   background-color: var(--primary-color);
   border: 1px solid var(--secondary-color);
   padding: 8px;
+  margin: 3px;
   border-radius: 10px;
   color: white;
 }
@@ -37,4 +41,18 @@ textarea {
 .form-btn:hover {
   background-color: var(--primary-color);
   color: var(--tertiary-color);
+}
+
+
+@media screen and (max-width: 767px) {
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  textarea{
+      max-width: 300px;
+  }
 }

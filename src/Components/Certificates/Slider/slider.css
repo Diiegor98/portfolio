@@ -36,13 +36,9 @@
   background: linear-gradient(to left, black, transparent);
 }
 
-/*.logos:hover .logos-slide {
-  animation-play-state: paused;
-}*/
-
 .logos-slide {
   display: inline-block;
-  animation: 20s slide infinite linear;
+  animation: 30s slide infinite linear;
   animation-delay: 0s;
 }
 

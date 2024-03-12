@@ -27,18 +27,22 @@ const Certificates = () => {
       <Container>
         {certificados.map((certificado) => (
           <Accordion
-            className="accordion-container col-12"
+            className="accordion-container"
             key={certificado.id}
           >
             <AccordionSummary
               className="accordion-header"
-              sx={accHeader}
               expandIcon={<FaCaretDown className="text-white" />}
               aria-controls={`${certificado.id}-content`}
               id={`${certificado.id}-header`}
+              sx={accHeader}
             >
-              {certificado.name}
-              <span className="accordion-academia">{certificado.academia}</span>
+              <div className="d-flex flex-column">
+                <span className="accordion-name">{certificado.name}</span>
+                <span className="accordion-academia">
+                  {certificado.academia}
+                </span>
+              </div>
             </AccordionSummary>
             <AccordionDetails className="accordion-body">
               {certificado.text}
