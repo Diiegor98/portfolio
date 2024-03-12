@@ -4,13 +4,19 @@
 }
 
 .about-description {
-  background-color: var(--cuaternary-color);;
+  background-color: var(--hover-color);
+  border-radius: 15px;
   color: var(--secondary-color);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 5px;
+  transition: all .3s ease;
+}
+
+.about-description:hover{
+  border-left: 3px solid var(--tertiary-color);
 }
 
 .about-description div {
@@ -26,7 +32,7 @@
   text-transform: uppercase;
   color: var(--tertiary-color);
   font-family: "Rajdhani", sans-serif;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .about-icon {

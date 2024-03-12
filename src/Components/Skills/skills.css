@@ -1,5 +1,4 @@
 .skills {
-  padding: 30px 20px 20px 20px;
   background-color: var(--primary-color);
 }
 
@@ -20,7 +19,13 @@
   height: 100px;
   margin: 12px;
   padding: 5px;
-  border: 1px solid rgba(255, 255, 255, 0.103);
+  border: 1px solid var(--cuaternary-color);
+  transition: all .3s ease;
+}
+
+.img-container:hover{
+  transform: scale(1.02);
+  background-color: var(--hover-color);
 }
 
 .img-container span{

@@ -1,17 +1,39 @@
 .certificates {
   padding-top: 1.5em;
+  background-color: var(--primary-color);
 }
 
-.accordion-header {
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  border-bottom: 1px solid var(--cuaternary-color);
+}
+
+.cert-body {
   font-size: 0.9em;
 }
 
-.accordion-name {
+.cert-name {
   white-space: nowrap;
   overflow: hidden;
 }
 
-.accordion-academia {
+.cert-academia {
   color: var(--tertiary-color);
   font-weight: bold;
+}
+
+.cert-icon{
+  font-size: 2em;
+  margin: 0.5em;
+}
+
+.list-item img{
+  width: 100px;
+  height: 60px;
+  object-fit: cover;
 }

@@ -17,7 +17,7 @@ const Projects = () => {
         {proyectos.map((proyecto, index) => (
           <Card key={index} className="proyect-card">
             <Card.Img variant="top" src={proyecto.image} className="card-img" />
-            <Card.Body className="card-body d-flex flex-column justify-content-between">
+            <Card.Body className="card-p-body d-flex flex-column justify-content-between">
               <Card.Title className="card-title">{proyecto.name}</Card.Title>
               <div>
                 <div className="card-tech-container">
