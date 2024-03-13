@@ -5,6 +5,7 @@
 
 .about-description {
   background-color: var(--hover-color);
+  border-left: 3px solid var(--primary-color);
   border-radius: 15px;
   color: var(--secondary-color);
   display: flex;

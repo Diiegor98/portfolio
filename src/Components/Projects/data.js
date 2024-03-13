@@ -29,9 +29,9 @@ export const proyectos = [
   },
   {
     name: "shop cart",
-    image: "https://i.postimg.cc/MTXzFtz4/p4.png",
+    image: "https://i.postimg.cc/NGmcF6VJ/p5.png",
     tech: ["HTML", "CSS", "React", "Tailwind"],
-    portfolio: "https://github.com/Diiegor98/todoapp.v2",
-    deploy: "https://todoapp-v2.vercel.app/",
+    portfolio: "https://github.com/Diiegor98/ShopCart",
+    deploy: "https://ecommerce-dr.vercel.app/"
   },
 ];

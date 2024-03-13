@@ -5,8 +5,6 @@
   flex-wrap: wrap;
 }
 
-
-
 .forms-input,
 textarea {
   background-color: var(--primary-color);
@@ -52,7 +50,9 @@ textarea {
     justify-content: center;
   }
 
-  textarea{
-      max-width: 300px;
+  textarea, .forms-input{
+      width: 300px;
   }
+
+
 }

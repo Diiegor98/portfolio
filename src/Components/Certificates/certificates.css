@@ -59,7 +59,7 @@
 }
 
 .add-cert ul li{
-  margin: 5px;
+  margin-bottom: 8px;
   color: var(--secondary-color);
 }
 

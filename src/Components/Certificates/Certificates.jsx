@@ -29,11 +29,13 @@ const Certificates = () => {
                   <span className="cert-academia">{certificado.academia}</span>
                 </div>
               </div>
-              <img
-                className="img-fluid"
-                src={certificado.img}
-                alt={certificado.name}
-              />
+              <a href={certificado.link}>
+                <img
+                  className="img-fluid"
+                  src={certificado.img}
+                  alt={certificado.name}
+                />
+              </a>
             </ListGroup.Item>
           ))}
         </ListGroup>
@@ -49,7 +51,6 @@ const Certificates = () => {
             <li>Git y github</li>
             <li>React.js con Vite.js y Tailwind</li>
           </ul>
-          <button className="form-btn">VER TODOS</button>
         </div>
       </Container>
     </section>
