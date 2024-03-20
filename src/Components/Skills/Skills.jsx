@@ -75,6 +75,13 @@ const Skills = () => {
             alt="nodejs"
           />
         </figure>
+        <figure className="img-container">
+        <span>WORDPRESS</span>
+          <Image
+            src="https://cdn.worldvectorlogo.com/logos/wordpress-icon.svg"
+            alt="wordpress"
+          />
+        </figure>
       </Container>
     </section>
   );

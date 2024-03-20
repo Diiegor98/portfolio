@@ -32,11 +32,11 @@ const About = () => {
           <div>
             <span>Responsive Design</span>
             <p>
-              Diseños responsivos que se adaptan de manera fluida a cualquier
-              dispositivo, brindando una experiencia de usuario consistente y
-              atractiva. Mi enfoque se centra en la versatilidad, asegurando que
-              tu presencia digital se vea impecable tanto en pantallas de
-              escritorio como en dispositivos móviles.
+              Realizo diseños responsivos que se adaptan de manera fluida a
+              cualquier dispositivo, brindando una experiencia de usuario
+              consistente y atractiva. Mi enfoque se centra en la versatilidad,
+              asegurando que tu presencia digital se vea impecable tanto en
+              pantallas de escritorio como en dispositivos móviles.
             </p>
           </div>
         </Card.Body>
@@ -46,8 +46,7 @@ const About = () => {
           <div>
             <span>Soft Skills</span>
             <p>
-              Gestión de proyectos ágiles utilizando la metodología SCRUM. Mi
-              capacidad para trabajar en equipos ágiles se refleja en mi
+              Mi capacidad para trabajar en equipos ágiles se refleja en mi
               habilidad para adaptarme rápidamente a los cambios, colaborar de
               manera efectiva con los miembros del equipo y cumplir con los
               plazos de manera consistente.

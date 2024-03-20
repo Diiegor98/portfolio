@@ -15,7 +15,10 @@ const ContactForm = () => {
 
     emailjs
       .sendForm(serviceID, templateId, refForm.current, apikey)
-      .then((result) => console.log(result.text))
+      .then((result) => {
+        console.log(result.text);
+        refForm.current.reset();
+      })
       .catch((error) => console.log(error));
   };
 
@@ -42,7 +45,6 @@ const ContactForm = () => {
         ></input>
       </div>
       <textarea
-
         name="message"
         maxLength={500}
         cols={50}
